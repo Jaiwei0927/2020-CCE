@@ -1,0 +1,24 @@
+week04 git
+---------------------------------------------------------------------------
+1. Moodle 或網路, 下載 Git for Windows 的安裝檔
+2. 安裝 (下一步....)
+3. 啟動 Git Bash 小黑視窗
+3.1. git clone https://github.com/你的帳號/2020cce 可以把你的程式專案的倉庫, clone 複製下來 
+    (你可以再用 start 2020cce 開那個資料)
+    (在 檔案總管 裡面整理你的目錄, 輕鬆 :) )
+3.2. git add . 更新你現在電腦裡的倉庫 
+    (你可以用 git status 來查你的狀況)
+
+3.3. 用 git commit 簽到、承諾修改你的變動狀況
+    (小心, 第1次使用時, 會要記你的 email 還有帳號名)
+    git commit -m "add week04 by hand" 出現錯誤, 要你簽名
+
+    git config --global user.email "jsyeh@ms1.mcu.edu.tw"
+    git config --global user.name "jsyehmcu"
+    (照著它的提示, 只要打一次)
+
+    git commit -m "add week04 by hand" 為了它!!!!
+
+3.4. git push 推上雲端!!!!
+    (小心, 第1次使用時, 要用 Chrome 登入 github!!!!)
+    (小心, chrome 要設為預設的 browser, 而且有上網登入github)
