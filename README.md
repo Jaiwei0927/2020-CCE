@@ -1,0 +1,81 @@
+＃2020-CCE
+-------------------
+反敘數字
+#include <stdio.h>
+int main()
+{
+	int n,b,s=0,a=0;
+	scanf("%d",&n);
+	b=n;
+	while(b>0)
+	{
+		a=b%10;
+		s=s*10+a;
+		b=b/10;
+	}
+	printf("%d+%d=%d\n",n,s,s+n);
+}
+-----------------------
+絕對值函數
+#include <stdio.h>
+int f(int a)
+{
+	if(a>0)
+		return a;
+	else 
+		return -a;
+}
+int main(void)
+{
+	int n;
+	scanf("%d",&n);
+	printf("[%d]",f(n));
+	return 0;
+}
+------------------------
+N數之和 
+#include <stdio.h>
+int main()
+{
+	int N,a,sum=0;
+	scanf("%d",&N);
+	for(int i=0;i<N;i++)
+	{
+		scanf("%d",&a);
+		sum=sum+a;
+	}
+	printf("%d\n",sum);
+	return 0;
+}
+--------------------------
+三數極大
+#include <stdio.h>
+int main()
+{
+	int a,b,c,max=0;
+	scanf("%d %d %d",&a,&b,&c);
+	if(a>b)
+	{
+		max=a;
+	}
+	else if(b>a)
+	{
+		max=b;
+	}
+	if(max<c)
+	{
+		printf("%d\n",c);
+	}
+	else
+		printf("%d\n",max);
+}
+-----------------------------
+計算商數 
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d\n",a/b);
+}
+-------------------------------
