@@ -1,13 +1,13 @@
 #include <stdio.h>
 struct DATA{
-    float x,y,z;     ///¥~­±global¥ş°ìÅÜ¼Æ
+    float x,y,z;     ///å¤–é¢globalå…¨åŸŸè®Šæ•¸
 }   a, b;
 struct DATA c, d;
 /*----------------------------------------*/
 int main()
 {
     struct DATA e;
-    struct DATA f={1,2,3}; /*«Å§iªº¦P®É,¥i¥Hªì©l­È*/
+    struct DATA f={1,2,3}; /*å®£å‘Šçš„åŒæ™‚,å¯ä»¥åˆå§‹å€¼*/
     printf("%f %f %f\n", a.x, a.y, a.z);
     printf("%f %f %f\n", b.x, b.y, b.z);
     printf("%f %f %f\n", c.x, c.y, c.z);
