@@ -1,6 +1,6 @@
 #include <stdio.h>
 struct DATA{
-    float x,y,z;     ///�~��global�����ܼ�
+    float x,y,z;     ///¥~­±global¥þ°ìÅÜ¼Æ
 }   point1;
 struct DATA c, d;
 /*----------------------------------------*/
